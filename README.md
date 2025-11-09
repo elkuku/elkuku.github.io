@@ -1,2 +1,3 @@
-# elkuku.github.io
-wiki
+# Wiki
+
+* [IITC Plugins](iitc-plugins)
