@@ -1,0 +1,2 @@
+# elkuku.github.io
+wiki
