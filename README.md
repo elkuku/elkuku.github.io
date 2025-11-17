@@ -1,3 +1,3 @@
-# Wiki
+# KuKu's Homepage
 
-* [IITC Plugins](iitc-plugins)
+* https://elkuku.github.io
