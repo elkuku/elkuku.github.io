@@ -3,10 +3,11 @@
 layout: home
 
 hero:
-  name: "KuKu's Homepage"
+  name: "KuKu's Page"
   text: "Don't forget this stuff..."
   tagline: "... because human life is so short."
 ---
 
-Sometimes I buy new hardware and spend a lot of time to in its [setup](/pc-setup.md).
-I Like to play [Ingress](https://ingress.com) and wrote some [stuff](/iitc-plugins.md).
+Sometimes I buy new hardware and spend a lot of time with the [setup](/pc-setup.md).
+
+I Like to play [Ingress](https://ingress.com), so I wrote some [stuff](/iitc-plugins.md).

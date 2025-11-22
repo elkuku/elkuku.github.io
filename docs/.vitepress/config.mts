@@ -4,9 +4,10 @@ const isProd = process.env.NODE_ENV === 'production'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-    title: "KuKu's Homepage",
+    title: "KuKu's Page",
     description: "Don't forget this stuff...",
     head: [['link', {rel: 'icon', href: isProd ? '/favicon.ico' : '/favicon-dev.ico'}]],
+    lastUpdated: true,
     themeConfig: {
         // https://vitepress.dev/reference/default-theme-config
         nav: [
@@ -31,6 +32,11 @@ export default defineConfig({
 
         socialLinks: [
             {icon: 'github', link: 'https://github.com/elkuku'}
-        ]
+        ],
+        externalLinkIcon: true,
+        docFooter: {
+            prev: false, // Hides the "Previous" button
+            next: false, // Hides the "Next" button
+        },
     }
 })
