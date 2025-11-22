@@ -7,12 +7,12 @@ export default defineConfig({
     title: "KuKu's Page",
     description: "Don't forget this stuff...",
     head: [['link', {rel: 'icon', href: isProd ? '/favicon.ico' : '/favicon-dev.ico'}]],
-    lastUpdated: true,
+
     themeConfig: {
         // https://vitepress.dev/reference/default-theme-config
         nav: [
             {text: 'Home', link: '/'},
-       //     {text: 'Examples', link: '/markdown-examples'}
+            //     {text: 'Examples', link: '/markdown-examples'}
         ],
 
         sidebar: [
@@ -35,8 +35,14 @@ export default defineConfig({
         ],
         externalLinkIcon: true,
         docFooter: {
-            prev: false, // Hides the "Previous" button
-            next: false, // Hides the "Next" button
+            prev: false,
+            next: false,
+        },
+        lastUpdated: {
+            text: 'Last updated',
+            formatOptions: {
+                dateStyle: 'long',
+            }
         },
     }
 })
