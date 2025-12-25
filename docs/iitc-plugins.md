@@ -12,3 +12,7 @@ These plugins are meant to be used by other plugins.
 
 * [Helper Handlebars](https://github.com/elkuku/iitc-kuku-helper-handlebars) Integrates the [Handlebars](https://handlebarsjs.com/) template engine. [Download](https://github.com/elkuku/iitc-kuku-helper-handlebars/releases/latest)
 * [Helper Inventory]() Fetch and parse the Ingress inventory.
+
+## Development
+
+* https://github.com/IITC-CE/Community-plugins/blob/master/CONTRIBUTING.md
